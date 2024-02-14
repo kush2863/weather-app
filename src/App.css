@@ -1,0 +1,95 @@
+/* App.css */
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #007bff; /* Blue color */
+    padding: 20px;
+    color: white;
+  }
+  
+  .App-header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .App-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #218838; /* Darker green color on hover */
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .recent-searches {
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .recent-searches h2 {
+    margin-top: 0;
+  }
+  
+  .recent-searches ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recent-searches ul li {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-info p {
+    margin: 0;
+  }
+  
+  .canvas-container {
+    margin-top: 20px;
+  }
+  
